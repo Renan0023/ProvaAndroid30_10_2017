@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:gravity="center|top"
+    android:background="@color/corFundo">
+
+    <!--<TableLayout-->
+        <!--android:gravity="center|top"-->
+        <!--android:id="@+id/tbl"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <TableRow
+            android:layout_column="0"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="8dp">
+
+
+            <ImageView
+                android:layout_column="0"
+
+                android:id="@+id/txtPass"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/medico" />
+
+
+            <LinearLayout
+            android:layout_gravity="end"
+                android:id="@+id/linearAssinatura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/assinatura"
+                    android:textColor="@color/corEscrita"
+                    android:textSize="48sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/clinica"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_column="1"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingTop="8dp">
+
+            <RelativeLayout
+                android:layout_column="0"
+
+                android:id="@+id/relativeII"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nomeDr"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tx1"
+                    android:text="@string/profissao"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_column="1"
+
+                android:id="@+id/relativeIIi"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tx3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefone"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tx3"
+                    android:paddingTop="16dp"
+                    android:text="@string/email"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+

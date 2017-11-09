@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProvaAndroid30_10_2017</string>
+    <string name="nomeDr">Dr. João Ninguém</string>
+    <string name="profissao">Oftamologista</string>
+    <string name="cargo">Pediatria e Cirurgia</string>
+    <string name="assinatura">Kristal</string>
+    <string name="clinica">Clinica Oftamologia</string>
+    <string name="telefone">9 9999-9999</string>
+    <string name="email">joaoninguem@up.edu.br</string>
+    <string name="enviar">Enviar</string>
+    <string name="quartafeira">quarta-feira</string>
+    <string name="segundafeira">segunda-feira</string>
+    <string name="dias_da_semana_preferencias">Dias da semana preferencias</string>
+    <string name="nome">Seu Nome</string>
+</resources>
